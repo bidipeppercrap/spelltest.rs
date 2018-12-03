@@ -1,0 +1,6 @@
+[package]
+name = "spelltest"
+version = "0.1.0"
+authors = ["Fransisco Wijaya <bidipeppercrap@gmail.com>"]
+
+[dependencies]
