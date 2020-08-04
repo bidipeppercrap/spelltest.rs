@@ -2,5 +2,8 @@
 name = "spelltest"
 version = "0.1.0"
 authors = ["Fransisco Wijaya <bidipeppercrap@gmail.com>"]
+description = "SPELL TEST Mechanics"
+repository = "https://github.com/bidipeppercrap/spelltest.rs"
+license = "Apache-2.0"
 
 [dependencies]
