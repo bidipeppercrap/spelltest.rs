@@ -6,7 +6,6 @@ edition = "2018"
 description = "SPELL TEST Mechanics"
 repository = "https://github.com/bidipeppercrap/spelltest.rs"
 readme = "README.md"
-license = "Apache-2.0"
 license-file = "LICENSE"
 
 [dependencies]

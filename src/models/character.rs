@@ -23,11 +23,11 @@ impl Character {
     }
 
     pub fn attack(&self, character: &mut Character) {
-        character.attacked(&self.damage);
+        character.attacked(self.damage);
     }
 
-    fn attacked(&mut self, damage: &f64) {
-        self.health -= damage_dealt(damage, &self.defense);
+    fn attacked(&mut self, damage: f64) {
+        self.health -= damage_dealt(damage, self.defense);
     }
 }
 
