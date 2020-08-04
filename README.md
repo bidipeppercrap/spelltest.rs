@@ -34,6 +34,6 @@ fn main() {
 }
 ```
 
-See [examples](https://github.com/bidipeppercrap/spelltest.rs/tree/master/src/examples) for more!
+See [examples](https://github.com/bidipeppercrap/spelltest.rs/tree/master/examples) for more!
 
 To run the official example, simply clone this repo and run it by using `cargo run --example <folder-name>` (Replace `<folder-name>` with the example folder name).
