@@ -1,4 +1,4 @@
-use utils::logger::print_seperator;
+use utils::logger::print_separator;
 use models::attack::damage_dealt;
 
 pub struct Character {
@@ -13,13 +13,13 @@ pub struct Character {
 
 impl Character {
     pub fn print(&self) {
-        print_seperator();
+        print_separator();
         println!("Name\t : {character_name}", character_name = self.name);
         println!("Health\t : {character_health}/{character_health_limit}", character_health = self.health, character_health_limit = self.health_limit);
         println!("Energy\t : {character_energy}/{character_energy_limit}", character_energy = self.energy, character_energy_limit = self.energy_limit);
         println!("Damage\t : {character_damage}", character_damage = self.damage);
         println!("Defense\t : {character_defense}", character_defense = self.defense);
-        print_seperator();
+        print_separator();
     }
 
     pub fn attack(&self, character: &mut Character) {

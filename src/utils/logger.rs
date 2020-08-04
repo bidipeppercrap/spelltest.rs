@@ -1,5 +1,5 @@
-pub fn print_seperator() {
-    let seperator = "================================";
+pub fn print_separator() {
+    let separator = "================================";
     
-    println!("{seperator}", seperator = seperator);
+    println!("{separator}", separator = separator);
 }
