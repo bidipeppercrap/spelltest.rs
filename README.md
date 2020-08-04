@@ -1,5 +1,9 @@
-extern crate spelltest;
+<img src="https://s3-ap-southeast-1.amazonaws.com/spelltest.com/assets/logo_new.svg" height="52px" alt="SPELL TEST logo">
+<br>
+SPELL TEST mechanics written in Rust!
 
+## Quick Example
+```
 use spelltest::*;
 
 fn main() {
@@ -28,3 +32,8 @@ fn main() {
     // Expecting reduced player health
     player.print();
 }
+```
+
+See [examples](https://github.com/bidipeppercrap/spelltest.rs/tree/master/src/examples) for more!
+
+To run the official example, simply clone this repo and run it by using `cargo run --example <folder-name>` (Replace `<folder-name>` with the example folder name).
