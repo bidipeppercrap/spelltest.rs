@@ -16,7 +16,7 @@ fn main() {
     // Let's do a turn-based combat
     // First, the player attack the enemy
     player.attack(&mut dummy_enemy); // Borrow and use as mutable to apply a change to enemy health
-    
+
     // Let's print enemy attributes again, we expect the enemy health is reduced by the attack from the player
     dummy_enemy.print();
 
