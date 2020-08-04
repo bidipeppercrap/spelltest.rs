@@ -10,10 +10,10 @@ fn main() {
     // --- Create a player character ---
     // Character::new(name, health, energy, damage, defense)
     // Set mutable variable because we expect a change to health and energy
-    let mut player = Character::new(String::from("Pel Nervil"), 100, 20, 5, 0);
+    let mut player = Character::new("Pel Nervil", 100, 20, 5, 0);
 
     // --- Create a dummy enemy ---
-    let mut dummy_enemy = Character::new(String::from("Player killer"), 200, 50, 10, 5);
+    let mut dummy_enemy = Character::new("Player killer", 200, 50, 10, 5);
 
     // Let's print their attributes
     player.print();

@@ -2,6 +2,7 @@
 name = "spelltest"
 version = "0.1.2"
 authors = ["Fransisco Wijaya <bidipeppercrap@gmail.com>"]
+edition = "2018"
 description = "SPELL TEST Mechanics"
 repository = "https://github.com/bidipeppercrap/spelltest.rs"
 readme = "README.md"

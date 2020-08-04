@@ -1,5 +1,5 @@
-use utils::logger::print_separator;
-use models::attack::damage_dealt;
+use crate::utils::logger::print_separator;
+use super::attack::damage_dealt;
 
 pub struct Character {
     name: String,
@@ -32,9 +32,9 @@ impl Character {
 }
 
 impl Character {
-    pub fn new(name: String, health: u64, energy: u64, damage: u64, defense: u64) -> Character {
+    pub fn new<S: Into<String>>(name: S, health: u64, energy: u64, damage: u64, defense: u64) -> Character {
         Character {
-            name,
+            name: name.into(),
             health_limit: health as f64,
             health: health as f64,
             energy_limit: energy as f64,
