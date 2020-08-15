@@ -1,4 +1,4 @@
-pub use self::character::Character;
+pub use self::creature::Creature;
 
-pub mod character;
+pub mod creature;
 mod attack;

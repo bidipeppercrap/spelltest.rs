@@ -1,4 +1,4 @@
-pub use self::models::Character;
+pub use self::models::Creature;
 
 pub mod models;
 mod utils;
