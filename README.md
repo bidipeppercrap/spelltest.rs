@@ -8,12 +8,12 @@ use spelltest::*;
 
 fn main() {
     // --- Create a player character ---
-    // Character::new(name, health, energy, damage, defense)
+    // Creature::new(name, health, energy, damage, defense)
     // Set mutable variable because we expect a change to health and energy
-    let mut player = Character::new("Pel Nervil", 100, 20, 5, 0);
+    let mut player = Creature::new("Pel Nervil", 100, 20, 5, 0);
 
     // --- Create a dummy enemy ---
-    let mut dummy_enemy = Character::new("Player killer", 200, 50, 10, 5);
+    let mut dummy_enemy = Creature::new("Player killer", 200, 50, 10, 5);
 
     // Let's print their attributes
     player.print();
@@ -22,7 +22,7 @@ fn main() {
     // Let's do a turn-based combat
     // First, the player attack the enemy
     player.attack(&mut dummy_enemy); // Borrow and use as mutable to apply a change to enemy health
-    
+
     // Let's print enemy attributes again, we expect the enemy health is reduced by the attack from the player
     dummy_enemy.print();
 
